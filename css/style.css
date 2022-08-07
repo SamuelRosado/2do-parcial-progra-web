@@ -1,0 +1,208 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+
+}
+.container-login{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 180px;
+    text-align: center;
+    
+
+}
+.login-img{
+    align-self: center;
+   width: 50px;
+   height: 50px;
+}
+
+.textlogin{
+    
+    text-decoration: overline underline darkgrey;
+    
+    
+}
+
+input{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+    
+
+}
+.button{
+    
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    text-align: center;
+      
+}
+.button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+/*Formulario de contacto*/  
+
+.container-formcontact{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+
+}
+.container-formcontact h2{
+
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.container-formcontact p{
+
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+.container-formcontact a{
+
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-formcontact form .campo, textarea{
+
+width: 100%;
+padding: 15px 10px;
+font-size: 15px;
+border: 1px solid #dbdbdb;
+margin-bottom: 20px;
+border-radius: 3px;
+outline: 0px;
+
+}
+
+.container-formcontact form textarea{
+
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 140px;
+    min-height: 150px;
+
+}
+.submitenviar{
+
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background: solid gray;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+.submitenviar:hover{
+
+    background: #e39403;
+}
+.buttonbacklogin{
+    width: 30px;
+    padding: 15px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.buttonbacklogin:hover{
+
+    background: #e39403;
+}
+/*Formulario de registro*/
+.container-register{
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 440px;
+    width: 100%;
+    margin-top: 120px;
+    margin-left: 15px;
+    text-align: center;
+
+    
+/*tabla*/
+}
+table{
+
+    width: 80%;
+    margin: 40px auto;
+    
+}
+table.listado{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even), table.listado thread> tr{
+
+    background-color: beige;
+}
+input[type="text"]{
+
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+input[type="submit"], input[type="reset"]{
+
+    width: 91%;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+
+    background-color: gray;
+}
+input[type="reset"]:hover{
+
+    background-color: gray;
+}
+
+
